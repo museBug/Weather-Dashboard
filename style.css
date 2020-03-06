@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    background-color: #786fa6; 
+}
+
+#head {
+    background: #42387c;
+    text-align: center;
+}
+
+.list {
+    color:#42387c;
+    font-size: 25px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+ h1 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: url(image.jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 2 50px, black;
+        
+}
+
+h5 {
+    font-size: 28px;
+    font-weight: 10px;
+    color: #fff;
+    font-style: 0 0 20px #00000060;
+}
+
+.card {
+    color: #fff;
+    background: linear-gradient(125deg, #778beb,#f8a5c2);
+    box-shadow: 0 0 20px #00000060;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#searchTerm {
+    border-radius: 40px;
+    background: #f1f1f199;
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+}
+
+#searchBtn {
+    background: #574b90;
+    border: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    transition: 0.3s linear;
+}
+
+#searchBtn:hover {
+    opacity: .5;
+}
+
+#forecastH5 {
+    margin-bottom: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
