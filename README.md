@@ -2,11 +2,11 @@
 
 https://antidetka.github.io/Weather-Dashboard/
 
-![](/assets/images/screen-weather.png)
-
 ## Description
 
 The goal for this project was to build a weather dashboard that runs in the browser and utilizes dynamically updating HTML and CSS using data from the OpenWeather API (https://openweathermap.org/api) to retrieve weather data.
+
+![](/assets/images/screen-weather.png)
 
 ## User story & Acceptance Criteria
 
@@ -30,8 +30,6 @@ WHEN I view the UV index
 THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
 WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city 
 
 ```
                 
@@ -45,19 +43,11 @@ git clone
 ```
 cd Weather-Dashboard
 ```
-
-
-## Usage
-            
-node server.js
  
 ## License
             
 MIT
-        
-## Test
 
-none
             
 ## Questions
             
