@@ -1,4 +1,14 @@
-## User Story
+# Weather-Dashboard
+
+![](/assets/images/screen-weather.png)
+
+## Description
+
+The goal for this project was to build a weather dashboard that runs in the browser and utilizes dynamically updating HTML and CSS using data from the OpenWeather API (https://openweathermap.org/api) to retrieve weather data.
+
+## User story & Acceptance Criteria
+
+The user story for this project was as follows: 
 
 ```
 AS A traveler
@@ -6,7 +16,7 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 
-## Acceptance Criteria
+The acceptance criteria were as follows: 
 
 ```
 GIVEN a weather dashboard with form inputs
@@ -19,5 +29,41 @@ THEN I am presented with a color that indicates whether the conditions are favor
 WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
 WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+THEN I am again presented with current and future conditions for that city 
+
+```
+            
+        
+## Installation
+            
+**Step 1 - Clone my repo using the command line below.**
+```
+git clone 
+```
+**Step 2 - Change directory to the cloned repo folder.**
+```
+cd Weather-Dashboard
+```
+
+## Functionality
+
+
+## Usage
+            
+node server.js
+ 
+## License
+            
+MIT
+        
+## Test
+
+none
+            
+## Questions
+            
+[![](https://img.shields.io/badge/gitHub-Antidetka-blue?style=plastic)](https://www.github.com/Antidetka) | 
+[![](https://img.shields.io/badge/email-musovirova@yahoo.com-purple?style=plastic)](mailto:musovirova@yahoo.com)
+
+
 

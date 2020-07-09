@@ -37,7 +37,6 @@ $("#searchBtn").on("click", function() {
     getCurrentConditions(response);
     getCurrentForecast(response);
     makeList();
-
     })
   });
 
@@ -62,13 +61,13 @@ $("#searchBtn").on("click", function() {
     const humidity = $("<p>").addClass("card-text current-humidity").text("Humidity: " + response.main.humidity + "%");
     const wind = $("<p>").addClass("card-text current-wind").text("Wind Speed: " + response.wind.speed + " MPH");
     const image = $("<img>").attr("src", "https://openweathermap.org/img/w/" + response.weather[0].icon + ".png")
-
+    //const uv = $("<p>").addClass("card-text current-uv").text("Uv Index:" + responseUV.value);
+   
     // add to page
-    city.append(cityDate, image)
+    city.append(cityDate, image);
     cardBody.append(city, temperature, humidity, wind);
     card.append(cardBody);
-    $("#currentCity").append(card)
-   
+    $("#currentCity").append(card);
   }
 
 function getCurrentForecast () {
@@ -82,11 +81,7 @@ function getCurrentForecast () {
 
     // variable to hold response.list
     let results = response.list;
-    console.log(results)
-    
-    //declare start date to check against
-    // startDate = 20
-    //have end date, endDate = startDate + 5
+    console.log(results);
 
     for (let i = 0; i < results.length; i++) {
 
