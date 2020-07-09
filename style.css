@@ -21,7 +21,7 @@ body {
     font-size: 70px;
     font-weight: 900;
     letter-spacing: 5px;
-    background: url(image.jpeg);
+    background: url(assets/images/front.jpeg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-shadow: 0 2 50px, black;
