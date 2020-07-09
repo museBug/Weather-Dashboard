@@ -1,5 +1,7 @@
 # Weather-Dashboard
 
+https://antidetka.github.io/Weather-Dashboard/
+
 ![](/assets/images/screen-weather.png)
 
 ## Description
@@ -32,8 +34,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city 
 
 ```
-            
-        
+                
 ## Installation
             
 **Step 1 - Clone my repo using the command line below.**
@@ -44,8 +45,6 @@ git clone
 ```
 cd Weather-Dashboard
 ```
-
-## Functionality
 
 
 ## Usage
